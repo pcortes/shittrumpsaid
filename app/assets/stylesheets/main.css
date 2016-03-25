@@ -23,17 +23,15 @@ p {
   font-size: 45px;
 }
 
-#refresh{
-  padding-top: 30px;
-  font-weight: normal;
-  font-size: 15px;
-  font-color:green;
-/*  text-align: right;*/
-  animation: fadein 8s;
-  -moz-animation: fadein 8s; /* Firefox */
-  -webkit-animation: fadein 8s; /* Safari and Chrome */
-  -o-animation: fadein 8s; /* Opera */
+a:link {
+  color: #A0EBDA; 
+  font-size: 17px;
 }
+
+/*#source {
+  color: #A0EBDA;
+  font-size: 17px
+}*/
 
 #button {
     background-color: #4CAF50; /* Green */
