@@ -1,7 +1,7 @@
 class WelcomeController < ApplicationController
   
   def index
-      @x = rand(1..16)
+      @x = rand(1..17)
 
     if @x == 1
       @display_phrase = " 'An extremely credible source has called my office and told me that Barack Obama’s birth certificate is a fraud' " 
