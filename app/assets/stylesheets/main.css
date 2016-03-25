@@ -28,13 +28,27 @@ p {
   font-weight: normal;
   font-size: 15px;
   font-color:green;
-  text-align: right;
+/*  text-align: right;*/
   animation: fadein 8s;
   -moz-animation: fadein 8s; /* Firefox */
   -webkit-animation: fadein 8s; /* Safari and Chrome */
   -o-animation: fadein 8s; /* Opera */
 }
 
+#button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    animation: fadein 8s;
+  -moz-animation: fadein 8s; /* Firefox */
+  -webkit-animation: fadein 8s; /* Safari and Chrome */
+  -o-animation: fadein 8s; /* Opera */
+}
 
 @keyframes fadein {
     from {
