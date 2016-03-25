@@ -42,6 +42,7 @@ a:link {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer;
     animation: fadein 8s;
   -moz-animation: fadein 8s; /* Firefox */
   -webkit-animation: fadein 8s; /* Safari and Chrome */
