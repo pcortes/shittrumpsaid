@@ -5,6 +5,7 @@ html, body {
     color: #FFFFFF;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     background-color: #725596;
+    background: image-url("main.jpg")
     animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -29,6 +30,7 @@ a:link {
 }
 
 .fb-like {
+  color: #A0EBDA;
     animation: fadein 8s;
   -moz-animation: fadein 8s; /* Firefox */
   -webkit-animation: fadein 8s; /* Safari and Chrome */
