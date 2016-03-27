@@ -28,6 +28,13 @@ a:link {
   font-size: 17px;
 }
 
+.fb-like {
+    animation: fadein 8s;
+  -moz-animation: fadein 8s; /* Firefox */
+  -webkit-animation: fadein 8s; /* Safari and Chrome */
+  -o-animation: fadein 8s; /* Opera */
+}
+
 /*#source {
   color: #A0EBDA;
   font-size: 17px

@@ -15,6 +15,30 @@
   ga('send', 'pageview');
 
 </script>
+<body>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1590193711301642',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<meta property="og:url"                content="http://www.shittrumpsaid.com" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="Things Trump Actually Said" />
+<meta property="og:description"        content="You won't believe the things he's said..." />
+<meta property="og:image"              content="http://www.shittrumpsaid.com/assets/images/shittrumpsaidimage.jpg" />
 
 <title>Shit Trump has ACTUALLY Said</title>
 	
@@ -40,8 +64,23 @@ function myFunction() {
 }
 </script>
 
+<p>
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
+<script>
+FB.ui({
+  method: 'share',
+  href: 'https://developers.facebook.com/docs/',
+}, function(response){});
+</script>
+</p>
 
 </body>
 </html>
+
 
 </head>
