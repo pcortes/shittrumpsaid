@@ -3,8 +3,8 @@ html, body {
     margin-right: 10%;
     margin-top: 6%;
     color: #FFFFFF;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    background-color: #725596;
+    font-family: 'Roboto', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    background-color: #1B1E25;
     animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -19,7 +19,8 @@ h1 {
 
 
 p {
-  font-weight: normal;
+  font-family: 'Roboto'
+  font-weight: 100;
   font-size: 45px;
 }
 
@@ -28,13 +29,6 @@ a:link {
   font-size: 17px;
 }
 
-.fb-like {
-  color: #A0EBDA;
-  animation: fadein 8s;
-  -moz-animation: fadein 8s; /* Firefox */
-  -webkit-animation: fadein 8s; /* Safari and Chrome */
-  -o-animation: fadein 8s; /* Opera */
-}
 
 /*#source {
   color: #A0EBDA;
@@ -55,6 +49,10 @@ a:link {
   -moz-animation: fadein 8s; /* Firefox */
   -webkit-animation: fadein 8s; /* Safari and Chrome */
   -o-animation: fadein 8s; /* Opera */
+}
+
+#hashtag {
+  font-size: 20px;
 }
 
 @keyframes fadein {
